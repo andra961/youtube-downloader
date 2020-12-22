@@ -19,12 +19,12 @@ choice = (input("Insert 1 or 2"))
 if choice in ["1", "1)"]:
     videoName = input("Insert video URL")
     path = input("Insert path where to download: ")
-    downloader.download_mp4(videoName, path)
+    downloader.download_mp4(videoName, path + "\\")
 
 elif choice in ["2", "2)"]:
     videoName = input("Insert video URL")
     path = input("Insert path where to download: ")
-    downloader.download_mp3(videoName, path)
+    downloader.download_mp3(videoName, path + "\\")
 
 elif choice in ["3", "3)"]:
     print("Closing...")
