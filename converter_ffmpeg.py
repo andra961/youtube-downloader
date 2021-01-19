@@ -4,6 +4,7 @@ import ffmpeg
 This files contains functions to combine video and audio using the ffmpeg-python library,
 hoping to obtain a faster method than with moviepy...
 HOWEVER IT DOESN'T WORK NOW
+ffmpeg must be installed first
 '''
 # don't call, it seem to not work
 def combine_video_and_audio(video_path, audio_path, title, path):
